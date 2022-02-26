@@ -3,7 +3,7 @@
 ## Object detection
 
 * Feature Pyramid Network (FPN)
-  * [youtube](https://www.youtube.com/watch?v=mwMopcSRx1U)
-  * [report](https://efaidnbmnnnibpcajpcglclefindmkaj/viewer.html?pdfurl=https%3A%2F%2Farxiv.org%2Fpdf%2F1612.03144.pdf&clen=789142&chunk=true)
+  * <a href="https://www.youtube.com/watch?v=mwMopcSRx1U" target="_blank">youtube</a> 
+  * <a href="https://openaccess.thecvf.com/content_cvpr_2017/html/Lin_Feature_Pyramid_Networks_CVPR_2017_paper.html" target="_blank">report</a>
 * YOLO - You only look once
 * YOLOv2 (YOLO9000)
