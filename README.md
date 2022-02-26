@@ -9,8 +9,15 @@
   * **QUESTION: Can you use threshold instead of pushing down the graph in focal loss?**
 * SSD
 * YOLO - You only look once - <a href="https://www.cv-foundation.org/openaccess/content_cvpr_2016/html/Redmon_You_Only_Look_CVPR_2016_paper.html" target="_blank">report</a>
-* YOLOv2/YOLO9000 (Darknet-19) - <a href="https://openaccess.thecvf.com/content_cvpr_2017/html/Redmon_YOLO9000_Better_Faster_CVPR_2017_paper.html" target="_blank">report</a>
-* YOLOv3 (Darknet-53) - <a href="https://arxiv.org/abs/1804.02767" target="_blank">report</a>
+  * Struggles with small objects
+  * Fast but suffers on localization and recall errors
+* YOLOv2/YOLO9000 - <a href="https://openaccess.thecvf.com/content_cvpr_2017/html/Redmon_YOLO9000_Better_Faster_CVPR_2017_paper.html" target="_blank">report</a>
+  * Sliding anchor boxes to predict multiple shapes
+  * K-means clustering to find prior box-dimensions
+  * Better backbone Darknet-19
+  * Hierarchical classification
+* YOLOv3 - <a href="https://arxiv.org/abs/1804.02767" target="_blank">report</a>
+  * Better backbone Darknet-53
 
 
 ### Two stage detectors
