@@ -1,4 +1,4 @@
-# NeuralNetworksCollection
+# Neural Networks Collection
 
 A colllection of methods and models for neural networks (mainly object detection for now) which I have stumbled on during my readings. 
 
