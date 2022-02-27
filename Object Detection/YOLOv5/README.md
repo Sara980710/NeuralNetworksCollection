@@ -1,3 +1,14 @@
+# YOLOv4 (2020)
+
+* CSPDarknet53 backbone
+* SPP, PAN neck
+* mosaic data augmentation
+* K-means clustering to determine anchors
+
+<a href="https://arxiv.org/abs/2004.10934" target="_blank">report</a>
+<a href="https://blog.roboflow.com/a-thorough-breakdown-of-yolov4/" target="_blank">article on Roboflow</a>
+
+
 # YOLOv5 (2020)
 
 * CSP backbone
@@ -19,3 +30,6 @@ Quotes from [blog post](https://blog.roboflow.com/yolov5-is-here/) by Joseph Nel
 ##
 Comparison of YOLOv4 and YOLOv5: [article](https://blog.roboflow.com/yolov4-versus-yolov5/)
 
+"YOLOv5 trains faster on the sample task, and the batch inference (which the implementation uses by default) produces realtime results. While YOLOv4 trains more slowly, its performance can be optimized to achieve higher FPS."
+
+"If you're a developer looking to incorporate near realtime object detection into your project quickly, YOLOv5 is a great choice. If you're a computer vision engineer in pursuit of state-of-the-art and not afraid of a little more custom configuration, YOLOv4 in Darknet continues to be most accurate."
