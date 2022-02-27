@@ -22,12 +22,12 @@
   * Hierarchical classification
 * YOLOv3 (2018) - <a href="https://arxiv.org/abs/1804.02767" target="_blank">report</a>
   * Better backbone Darknet-53
-* YOLOv4 (2020) - <a href="https://arxiv.org/abs/2004.10934" target="_blank">report</a>
+* <a href="https://github.com/Sara980710/NeuralNetworksCollection/tree/main/Object%20Detection/YOLOv4%20VS%20YOLOv5" target="_blank">YOLOv4</a> (2020) - <a href="https://arxiv.org/abs/2004.10934" target="_blank">report</a>
   * Not the original YOLO creators
   * Not focusing on BFLOP
   * Targeting conventional GPU (training on sigle core)
   * State of art BoF (bag of freebies) and several BoS (bag of specials)
-* <a href="https://github.com/Sara980710/NeuralNetworksCollection/tree/main/Object%20Detection/YOLOv5" target="_blank">YOLOv5</a> (2020) - no report
+* <a href="https://github.com/Sara980710/NeuralNetworksCollection/tree/main/Object%20Detection/YOLOv4%20VS%20YOLOv5" target="_blank">YOLOv5</a> (2020) - no report
 * PP-YOLO (2020)
 
 
