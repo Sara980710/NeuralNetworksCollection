@@ -25,7 +25,7 @@
 * YOLOv4 (2020) - <a href="https://arxiv.org/abs/2004.10934" target="_blank">report</a>
   * Not the original YOLO creators
   * Not focusing on BFLOP
-  * Targeting conventional GPU
+  * Targeting conventional GPU (training on sigle core)
 
 
 ## Two stage detectors
@@ -80,6 +80,8 @@
   * Only two-stage networks
 * Online hard example mining - <a href="https://arxiv.org/abs/1604.03540" target="_blank">report</a> - <a href="https://www.youtube.com/watch?v=7mcvcggUtfc" target="_blank">youtube</a>
   * Only two-stage networks
+* SAT (Self-Adversarial Training)
+  * Introduced in Yolov4
 
 
 # Loss functions
@@ -102,9 +104,32 @@
 * SENet (Squeeze-and-Excitation) 
   * Mobile devices and not GPU
 * SAM (Spatial Attention Module)
+* Skip-connections
+  * Residual connections 
+  * Weighted residual connections
+  * Multi-input weighted residual connections
+  * Cross stage partial connections (CSP)
 
 # Post processing
 * NMS
 * greedy NMS
 * soft NMS
 * DIoU NMS
+
+# Activation functions
+* ReLU
+* leaky-ReLU
+* PRELU (parametric-ReLU) 
+  * difficult to train
+* ReLU6
+  * designed for quantization network
+* SELU
+  * difficult to train
+* Swish
+* Mish
+
+# Normalization of activations 
+* Batch Normalization (BN)
+* Cross-GPU Batch Normalization (CGBN or SyncBN)
+* Filter Response Normalization (FRN)
+* Cross-Iteration Batch Normalization (CBN)
