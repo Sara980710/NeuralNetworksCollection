@@ -26,6 +26,9 @@
   * Not the original YOLO creators
   * Not focusing on BFLOP
   * Targeting conventional GPU (training on sigle core)
+  * State of art BoF (bag of freebies) and several BoS (bag of specials)
+* <a href="https://github.com/Sara980710/NeuralNetworksCollection/tree/main/Object%20Detection/YOLOv5" target="_blank">YOLOv5</a> (2020) - no report
+* PP-YOLO (2020)
 
 
 ## Two stage detectors
@@ -43,6 +46,9 @@
 
 # Nets (Backbone of object detection)
 * ConvNet GPU
+* CSP (Cross Stage Partial) - <a href="https://openaccess.thecvf.com/content_CVPRW_2020/html/w28/Wang_CSPNet_A_New_Backbone_That_Can_Enhance_Learning_Capability_of_CVPRW_2020_paper.html" target="_blank">report</a>
+  * less parameters and less FLOPS
+  * Based on DenseNet
 * DarkNet
 * DetNAS
 * DenseNet GPU
