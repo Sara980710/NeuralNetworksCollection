@@ -62,6 +62,9 @@
   * Saves features from different scales of the image to combine them
 * PAN (Path Aggregation Network)
 * NAS-FPN
+* SFAM
+  * SE-module
+* ASFF
 
 # Increase effect of training (Augmentation)
 * Photometric distortions 
@@ -90,3 +93,18 @@
 # Label refinement network
 * Knowledge distillation - <a href="https://arxiv.org/abs/1703.00551" target="_blank">report</a>
   * Soft labeling
+
+# Enhance model
+* SPP
+  * Integrates [SPM](https://github.com/Sara980710/NeuralNetworksCollection/tree/main/Natural%20Language%20Processing/SPM) (Spatial Pyramid Matching) into CNN
+* ASPP
+* RFB
+* SENet (Squeeze-and-Excitation) 
+  * Mobile devices and not GPU
+* SAM (Spatial Attention Module)
+
+# Post processing
+* NMS
+* greedy NMS
+* soft NMS
+* DIoU NMS
