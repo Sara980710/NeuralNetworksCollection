@@ -17,5 +17,5 @@ Quotes from [blog post](https://blog.roboflow.com/yolov5-is-here/) by Joseph Nel
 
 
 ##
-Comparison of YOLOv4 and YOLOv5: [article](https://blog.roboflow.com/yolov5-improvements-and-evaluation/)
+Comparison of YOLOv4 and YOLOv5: [article](https://blog.roboflow.com/yolov4-versus-yolov5/)
 
