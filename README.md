@@ -7,3 +7,8 @@ Only MY thoughts and MY interpretations...might be right, might be wrong...
 The target of this creation was myself due to the stressful discovery of the massive amount of readings there was on object detectors. :upside_down_face:
 
 * [Object detection](https://github.com/Sara980710/NeuralNetworksCollection/tree/main/Object%20Detection)
+
+# List of articles to read
+* EfficientDet
+* PP-Yolo
+* Multigrasp [report](https://arxiv.org/abs/1802.00520)
